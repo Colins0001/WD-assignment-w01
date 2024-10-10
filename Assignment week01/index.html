@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanzanian website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to   
+     My Website!</h1>
+      </header>
+      <p>This is a simple HTML template demonstrating various elements.</p>
+    <div class="reg-form">
+      <h2>Registration Form</h2>
+      <form action="/register" method="post"> <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>  
+    
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+        <button type="submit">Register</button>
+    
+      </form>
+    </div>
+      <h2>User Information</h2>
+      <table class="table-content">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Colin chediel</td>
+            <td>chedielcolins@gmail.com</td>
+            <td>+255 782 656536</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>janesmith@gmail.com</td> 
+            <td>+254 796544576</td>
+          </tr>
+          <tr>
+            <td>John Doe</td>
+            <td>John2024@gmail.com</td> 
+            <td>+255 796544576</td>
+          </tr>
+        </tbody>
+      </table> 
+      <img src="car.jpg" alt="Car picture"> <br>
+    
+      <a href="https://www.linkedin.com/in/colins-thomas-4757a3310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" >Follow ME on linkedin</a>
+
+<style>
+    img{
+        width: 30%;
+        height: 50%;
+    }
+    .table-content{
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+    }
+    .table-content thead tr{
+        background-color: aqua;
+        text-align: left;
+    }
+    .table-content th,
+    .table-content td{
+        padding: 12px 15px;
+    }
+    .table-content tbody tr{
+        border-bottom: 1px solid #dddddd;
+    }
+    .reg-form h2{
+         font-size: 30px;
+         
+         text-transform: uppercase;
+         margin: 40px;   
+    }
+    .reg-form input{
+        font-size: 16px;
+        padding:15px 10px;
+        text-align: leftr;
+        margin: 30px;
+        width: 40%;
+        border-radius: 6px;
+        outline: none;
+    }
+    .reg-form button{
+        font-size: auto;
+        font-weight: bold;
+        margin: 20px 0;
+        padding: 10px 15px;
+        width: 20%;
+        border-radius: 8px;
+    }
+</style>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+img{
+    width: 30%;
+    height: 50%;
+}
+.table-content{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    text-align: center;
+}
+.table-content thead tr{
+    background-color: rgb(86, 95, 95);
+    align-self: center;
+}
+.table-content th,
+.table-content td{
+    padding: 12px 15px;
+    color: aliceblue;
+}
+.table-content tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.reg-form h2{
+     font-size: 30px;
+     
+     text-transform: uppercase;
+     margin: 40px;   
+}
+.reg-form input{
+    font-size: 16px;
+    padding:15px 10px;
+    margin: 30px;
+    width: 40%;
+    border-radius: 6px;
+    outline: none;
+}
+.reg-form button{
+    font-size: auto;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 20%;
+    border-radius: 8px;
+}
+body{
+    background-color: #dddddd;
+    background-image:url('background.png') ;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
